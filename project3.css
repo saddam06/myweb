@@ -1,0 +1,367 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+#header{
+    background: url("peter-neumann-JZRlnfsdcj0-unsplash.jpg");
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    overflow: hidden;
+
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    /* scroll-behavior: smooth; */
+    /* color: blanchedalmond; */
+}
+
+
+
+#heading{
+    /* font-size: 2.5rem; */
+    padding-top: 170px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    text-shadow: 1px 2px 5px;
+    /* text-shadow:0px,0px,10px, white; */
+
+    /* z-index: 1; */
+
+}
+
+
+#welcome{
+    color: white;
+    /* justify-content: space-around; */
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    border-left:1px solid white;
+    padding-left: 10px;
+    text-shadow: 2px ,6px ,10px;
+    /* margin-top: 10
+    0px; */
+    /* overflow: hidden; */
+}
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+button{
+    border: 3px solid rgb(241, 237, 237);
+    /* padding: 3px; */
+    border-radius:3px;
+    width: 200px;
+    position: relative;
+    left: 60px;
+    top: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+button:hover{
+    /* box-sizing: border-box; */
+    box-shadow: 0px,0px,10px white;
+}
+#about img{
+    /* height: 450px; */
+    width: 100%;
+    border: 5px solid black;
+    margin-bottom: 10px;
+    /* background-size: cover; */
+}
+
+#about h2{
+    border-bottom: 3px solid rgb(82, 58, 109);
+    /* box-sizing: border-box; */
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: #400980;
+}
+.description{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-style: italic;
+    /* font-size: 20px; */
+}
+.detail p{
+text-transform: capitalize;
+font-weight: bold;
+/* justify-content: space-around; */
+
+}
+.detail p span{
+    /* background-color: black; */
+    font-style: italic;
+    font-size: 15px;
+    font-weight: normal;
+    /* position: relative; */
+    /* left: 40%; */
+}
+.heading3{
+    /* border-bottom: 3px solid rgb(69, 6, 141); */
+    /* box-sizing: border-box; */
+    /* width: 120px; */
+    margin-top: 40px;
+    margin-bottom: 30px;
+    /* letter-spacing: 1px; */
+    color:rgb(65, 7, 131);
+    text-transform: capitalize; 
+
+}
+.skill-bar{
+    width: 100%;
+    height: 16px;
+    background-color: rgba(179, 175, 170, 0.459);
+    margin-bottom: 40px;
+}
+.skill{
+    width: 70%;
+    background-color: #faf6ff;
+    padding: 8px;
+
+}
+#saddam{
+    font-size: 180%;
+    text-shadow: 2px 3px 7px white;
+
+}
+.skill-name p{
+    position: relative;
+    float: right;
+    top: -30px;
+    font-weight:bold;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.skill-name{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#skillpage{
+    background: url("peter-neumann-Txvj_JpGHWY-unsplash.jpg");
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    overflow: hidden;
+    color: white !important;
+}
+.skill-name h4{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:#fdfdfd;
+    margin: 10px,0px;
+
+}
+.heading5{
+    text-transform: capitalize;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #f8f6fa;
+    width: 70px;
+    color:#fefeff;
+}
+.uleducation{
+    border-left: 3px solid #452763;
+    padding: 14px;
+    /* margin-left: 20px; */
+}
+.uleducation h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #400980;
+}
+.uleducation span{
+    border: 2px solid #4a2470;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    left: 9px;
+    /* top: -5px; */
+}
+.college{
+    background-color:  #6dc6e467;
+    width: 115px;
+    padding-left: 15px;
+    font-family: sans-serif;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 15px;
+}
+.heading6{
+    color:  #400980;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid  #400980;
+    width: 100px;
+    padding-bottom: 10px;
+
+}
+    .menu-right ul  {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+.copyright{
+    position: absolute;
+    left: 30%;
+
+}
+#footer{
+    background-color: black;
+    width: 100%;
+    /* height:8vh; */
+    color:white;
+    /* padding:6px; */
+    margin: 0px;
+    text-align: center;
+    /* width: 200px; */
+    
+}
+#footer span img{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.detail{
+    background-color: rgba(64, 224, 208, 0.267);
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 10%;
+    text-align: justify;
+    /* width: 350px; */
+
+}
+   
+.navigation {
+    position: fixed;
+    width: 60px;
+    background-color: rgba(18, 19, 18);
+    height: 100%;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 3;
+
+}
+
+.navigation:hover,.active {
+    width: 300px;
+}
+
+.navigation ul li:hover {
+    background-color: rgb(192, 181, 192);
+    color: black;
+}
+
+.navigation ul {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    left: 0;
+    text-decoration: none;
+}
+
+.navigation ul li {
+    position: relative;
+    /* display: block; */
+    width: 100%;
+    /* color: white; */
+    list-style: none;
+
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+.font {
+    min-width: 60px;
+    height: 60px;
+    /* display: block; */
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.title {
+    text-transform: uppercase;
+    /* display: block; */
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    /* margin: 0px 20px; */
+}
+
+
+
+
+
+.toggle{
+    /* position: fixed; */
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 60px;
+    height: 60px;
+    background-color:none;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+    z-index: 10;
+    display: none;
+}
+.toggle.active{
+    color: white;
+}
+@media(max-width: 720px){
+    .navigation{
+        left: -60px;
+    }
+    .navigation.active{
+        left:0px;
+        width:100%;
+        background-color: rgba(12, 14, 12);
+
+    }
+    .toggle{
+        display: block;
+    }
+}
+.social span{
+    margin:0px 15px;
+    
+}
+.social span img{
+    border: 2px solid white;
+    border-radius: 50%;
+
+}
+.social p{
+    text-transform: capitalize;
+}
+#a{
+    color: white;
+    text-transform: capitalize;
+    margin-top: 46px;
+    margin-left: 79px;
+}
